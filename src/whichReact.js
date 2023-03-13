@@ -8,9 +8,9 @@ import {
   useContext,
   useImperativeHandle,
   useTransition,
-  useId,
-  useSyncExternalStore,
-  useInsertionEffect,
+  // useId,
+  // useSyncExternalStore,
+  // useInsertionEffect,
   useRef,
   Component,
   PureComponent,
@@ -20,8 +20,8 @@ import {
 } from "react";
 
 import * as ReactDOM from "react-dom";
-import { flushSync } from "react-dom";
-import { createRoot } from "react-dom/client";
+import { createRoot, flushSync } from "react-dom";
+// import { createRoot } from "react-dom/client";
 
 export {
   React,
@@ -39,9 +39,9 @@ export {
   flushSync,
   Suspense,
   SuspenseList,
-  useId,
-  useSyncExternalStore,
-  useInsertionEffect,
+  // useId,
+  // useSyncExternalStore,
+  // useInsertionEffect,
   useRef,
   startTransition,
   useTransition,

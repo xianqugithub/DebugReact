@@ -1,14 +1,11 @@
-import {React, createRoot, ReactDOM} from "./whichReact";
+import {React, createRoot} from "./whichReact";
 import "./index.css";
 
-import jsx from "./pages/ExamplePage";
-import UseMemoPage from "./pages/UseMemoPage";
-
-ReactDOM.render(jsx, document.getElementById("root"));
+import UseStatePage from "./pages/UseStatePage";
 
 const root = createRoot(document.getElementById("root"));
 
-root.render(jsx);
-root.render(<UseMemoPage />);
+root.render(<UseStatePage />);
 
 console.log("React", React.version); //sy-log
+//xqu: React 17.0.0 should be
